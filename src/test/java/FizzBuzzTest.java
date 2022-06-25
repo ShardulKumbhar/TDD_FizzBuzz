@@ -35,6 +35,6 @@ public class FizzBuzzTest {
         String result = fizzBuzz.convert(30);
 
         assertEquals("FizzBuzz",result);
-        
+
     }
 }
