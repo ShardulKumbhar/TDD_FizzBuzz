@@ -13,6 +13,17 @@ public class FizzBuzzTest {
         String result = fizzBuzz.print(3);
 
         assertEquals("Fizz", result);
+
+    }
+
+    @Test
+    void shouldReturnBuzzIfTheNumberIsDivisibleBy5() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String result = fizzBuzz.print(5);
+
+        assertEquals("Buzz",result);
         
     }
 }
