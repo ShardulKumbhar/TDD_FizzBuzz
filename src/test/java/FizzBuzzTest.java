@@ -10,7 +10,7 @@ public class FizzBuzzTest {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
 
-        String result = fizzBuzz.print(3);
+        String result = fizzBuzz.convert(3);
 
         assertEquals("Fizz", result);
 
@@ -21,7 +21,7 @@ public class FizzBuzzTest {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
 
-        String result = fizzBuzz.print(5);
+        String result = fizzBuzz.convert(5);
 
         assertEquals("Buzz",result);
         

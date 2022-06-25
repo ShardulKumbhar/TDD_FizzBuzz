@@ -1,9 +1,9 @@
 public class FizzBuzz {
 
 
-    public String print(int i) {
-        if (i % 3 == 0) return "Fizz";
-        if (i % 5 == 0) return "Buzz";
+    public String convert(int number) {
+        if (number % 3 == 0) return "Fizz";
+        if (number % 5 == 0) return "Buzz";
         return null;
     }
 }
