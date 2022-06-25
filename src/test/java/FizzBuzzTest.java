@@ -37,4 +37,15 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz",result);
 
     }
+
+    @Test
+    void shouldReturnStringEquelentIfNumberIsDivisibleByNeither5Nor3() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String result = fizzBuzz.convert(7);
+
+        assertEquals("7",result);
+
+    }
 }

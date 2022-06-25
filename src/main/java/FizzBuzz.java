@@ -5,7 +5,7 @@ public class FizzBuzz {
         if (isDivisibleBy(number,3) && isDivisibleBy(number,5)) return "FizzBuzz";
         if (isDivisibleBy(number,3)) return "Fizz";
         if (isDivisibleBy(number,5)) return "Buzz";
-        return null;
+        return Integer.toString(number);
     }
 
     private boolean isDivisibleBy(int divident,int divisor) {
